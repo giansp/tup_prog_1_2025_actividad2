@@ -7,13 +7,9 @@ Algoritmo sin_titulo
 	Leer p2;
 	Leer p3;
 	prom <- (p1+p2+p3)/3;
-	Si prom=condicion Entonces
-		Escribir "Promociona";
+	Si prom>=condicion Entonces
+		Escribir 'Promociona';
 	SiNo
-		Si prom>condicion	 Entonces
-			Escribir "Promociona";
-		SiNo
-			Escribir "No promociona";
-		FinSi
+		Escribir 'No promociona';
 	FinSi
 FinAlgoritmo
